@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eagle>
+    <data>
+        <report id="action_report_student_idcard"
+                model="op.student"
+                string="Student ID Card"
+                report_type="qweb-pdf"
+                name="openeagleedu_core.report_student_idcard"
+                file="openeagleedu_core.report_student_idcard"/>
+
+        <report id="action_report_student_bonafide"
+                model="op.student"
+                string="Bonafide Certificate"
+                report_type="qweb-pdf"
+                name="openeagleedu_core.report_student_bonafide"
+                file="openeagleedu_core.report_student_bonafide"/>
+    </data>
+</eagle>

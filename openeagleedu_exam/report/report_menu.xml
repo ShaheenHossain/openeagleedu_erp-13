@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eagle>
+    <data>
+        <report id="report_marksheet"
+                string="Marksheet"
+                model="op.marksheet.line"
+                report_type="qweb-pdf"
+                file="openeagleedu_exam.report_marksheet_report"
+                name="openeagleedu_exam.report_marksheet_report"/>
+
+        <report id="action_student_hall_ticket_report"
+                model="op.exam.session"
+                string="Student Hall Ticket"
+                report_type="qweb-pdf"
+                name="openeagleedu_exam.report_ticket"
+                file="openeagleedu_exam.report_ticket"
+                menu="False"/>
+    </data>
+</eagle>

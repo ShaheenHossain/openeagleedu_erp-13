@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eagle>
+    <data noupdate="1">
+        <record id="op_user_student" model="res.users" context="{'no_reset_password': True}">
+            <field name="name">Sumita</field>
+            <field name="password">student</field>
+            <field name="login">student@openeagleedu.org</field>
+            <field name="is_student">True</field>
+            <field name="tz">Asia/Calcutta</field>
+            <field name="partner_id" ref="openeagleedu_core.op_res_partner_1"/>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="groups_id"
+                   eval="[(4,ref('base.group_portal'))]"/>
+        </record>
+
+        <record id="op_user_faculty" model="res.users">
+            <field name="login">faculty@openeagleedu.org</field>
+            <field name="password">faculty</field>
+            <field name="partner_id" ref="openeagleedu_core.op_res_partner_21"/>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="groups_id"
+                   eval="[(4,ref('openeagleedu_core.group_op_faculty'))]"/>
+        </record>
+
+        <record id="op_user_bo" model="res.users">
+            <field name="login">backoffice@openeagleedu.org</field>
+            <field name="password">backoffice</field>
+            <field name="partner_id" ref="openeagleedu_core.op_res_partner_31"/>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="groups_id"
+                   eval="[(4,ref('openeagleedu_core.group_op_back_office'))]"/>
+        </record>
+
+        <record id="op_user_boa" model="res.users">
+            <field name="login">backofficeadmin@openeagleedu.org</field>
+            <field name="password">backofficeadmin</field>
+            <field name="partner_id" ref="openeagleedu_core.op_res_partner_32"/>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="groups_id"
+                   eval="[(4,ref('openeagleedu_core.group_op_back_office_admin'))]"/>
+        </record>
+    </data>
+</eagle>

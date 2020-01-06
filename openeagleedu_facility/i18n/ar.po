@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: openeagleeduerptranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-28 11:18+0000\n"
+"PO-Revision-Date: 2018-03-20 01:43-0400\n"
+"Last-Translator: akkicode <aakash@techreceptives.com>\n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: openeagleeduerptranslation\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /master/openeagleedu_facility/i18n/openeagleedu_facility.pot\n"
+"Language: ar_SA\n"
+
+#. module: openeagleedu_facility
+#: view:op.facility:openeagleedu_facility.view_op_facility_search
+#: field:op.facility,Code:0
+msgid "Code"
+msgstr "مدونة"
+
+#. module: openeagleedu_facility
+#: field:op.facility,create_uid:0
+#: field:op.facility.line,create_uid:0
+msgid "Created by"
+msgstr "تم إنشاؤها بواسطة"
+
+#. module: openeagleedu_facility
+#: field:op.facility,create_date:0
+#: field:op.facility.line,create_date:0
+msgid "Created on"
+msgstr "تم النشر"
+
+#. module: openeagleedu_facility
+#: model:ir.actions.act_window,name:openeagleedu_facility.act_open_op_facility_view
+#: model:ir.ui.menu,name:openeagleedu_facility.menu_op_facility_sub
+#: view:op.facility.line:openeagleedu_facility.op_facility_line_form_view
+#: view:op.facility.line:openeagleedu_facility.op_facility_line_tree_view
+msgid "Facilities"
+msgstr "مرافق"
+
+#. module: openeagleedu_facility
+#: view:op.facility:openeagleedu_facility.view_op_facility_form
+#: view:op.facility:openeagleedu_facility.view_op_facility_search
+#: view:op.facility:openeagleedu_facility.view_op_facility_tree
+#: field:op.facility.line,facility_id:0
+msgid "Facility"
+msgstr "مرفق"
+
+#. module: openeagleedu_facility
+#: view:op.facility:openeagleedu_facility.view_op_facility_search
+msgid "Group By..."
+msgstr "تجميع حسب..."
+
+#. module: openeagleedu_facility
+#: field:op.facility,id:0
+#: field:op.facility.line,id:0
+msgid "ID"
+msgstr "معرف"
+
+#. module: openeagleedu_facility
+#: field:op.facility,write_uid:0
+#: field:op.facility.line,write_uid:0
+msgid "Last Updated by"
+msgstr "آخر تحديث قبل"
+
+#. module: openeagleedu_facility
+#: field:op.facility,write_date:0
+#: field:op.facility.line,write_date:0
+msgid "Last Updated on"
+msgstr "تاريخ آخر تحديث"
+
+#. module: openeagleedu_facility
+#: view:op.facility:openeagleedu_facility.view_op_facility_search
+#: field:op.facility,Name:0
+msgid "Name"
+msgstr "الاسم"
+
+#. module: openeagleedu_facility
+#: field:op.facility.line,quantity:0
+msgid "Quantity"
+msgstr "الكمية"
+
