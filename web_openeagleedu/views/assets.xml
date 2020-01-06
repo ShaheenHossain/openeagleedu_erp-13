@@ -13,21 +13,21 @@
             <div class="o_panel_body">
                 <!--________________________ Snippets____________________ -->
                         <t t-snippet="web_openeagleedu.slider"
-                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/op_educat.png"/>
+                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/eagleedu.png"/>
                         <t t-snippet="web_openeagleedu.about-us"
-                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/op_educat.png"/>
+                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/eagleedu.png"/>
                         <t t-snippet="web_openeagleedu.ourcourse"
-                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/op_educat.png"/>
+                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/eagleedu.png"/>
                         <t t-snippet="web_openeagleedu.achievement"
-                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/op_educat.png"/>
+                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/eagleedu.png"/>
                         <t t-snippet="web_openeagleedu.teacher"
-                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/op_educat.png"/>
+                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/eagleedu.png"/>
                         <t t-snippet="web_openeagleedu.event"
-                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/op_educat.png"/>
+                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/eagleedu.png"/>
                         <t t-snippet="web_openeagleedu.newsfeed"
-                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/op_educat.png"/>
+                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/eagleedu.png"/>
                         <t t-snippet="web_openeagleedu.footer"
-                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/op_educat.png"/>
+                           t-thumbnail="web_openeagleedu/static/src/img/snippets_icons/eagleedu.png"/>
             </div>
         </xpath>
     </template>
